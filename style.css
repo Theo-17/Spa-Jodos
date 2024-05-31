@@ -1,0 +1,369 @@
+.menu-content {
+    display: flex;
+    background-color: #A3A656;
+    height: 70px;
+    width: 100%;
+    /*position: fixed; FIJA EL MENU EN LA PAGINA*/ 
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-content-right {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: end;
+}
+
+nav {
+    padding: 0 70px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Inter Regular';
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #FFFF00
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+.account:hover {
+    color: #FFFF00;
+}
+
+.account img {
+    margin-right: 10px;
+}
+
+.account label {
+    font-family: 'Inter Regular';
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.main {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(images/main.png);
+    background-size: cover;
+    height: 667px;
+}
+
+.title {
+    font-family: 'Romanesco Regular';
+    font-size: 96px;
+    padding-left: 200px;
+    padding-top: 150px;
+
+}
+
+.slogan {
+
+    padding-left: 180px;
+    padding-top: 25px;
+    font-family: 'Inter SemiBold';
+    font-size: 32px;
+}
+
+.cita {
+    height: 100px;
+    background: #F2F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.cita form input {
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-size: 12px;
+}
+
+.cita form label {
+    padding-left: 35px;
+}
+
+.cita input::placeholder{
+    color: #9E9A9A;
+    font-family: 'Inter Regular';
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.cita form #cod {
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-size: 12px;
+}
+
+.masajes {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 100px;
+
+}
+
+.card {
+    width: 500px;
+    background: #FFFFFF;
+    margin-right: 134px;
+}
+.card:last-child {
+    margin-right: 0; 
+}
+
+.encabezadoMasaje {
+    display: flex;
+    border-radius: 15px 15px 0px 0px;
+    background: #A3A656;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezadoMasaje label {
+    font-family: 'Inter SemiBold';
+    font-size: 32px;
+    color: #fff;
+}
+
+
+.card img {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.descripcion {
+    font-family: 'Inter Regular';
+    font-size: 16px;
+    width: auto;
+    margin-bottom: 15px;
+
+}
+
+.precio{
+    font-family: 'Inter SemiBold';
+    font-size: 16px;
+    display:flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.precio h1{
+    margin: 0px;
+}
+.reservaButton {
+    background: #A3A656;
+    margin: 0px;
+    border-radius: 35px;
+    width: 150px;
+    padding: 15px 0px;
+    text-align: center;
+    font-family: 'Inter SemiBold';
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.reservaButton:hover {
+    background: #384001;
+}
+
+.socios{
+    height: 770px;
+    background: #F2F6F6;
+    text-align: center;
+}
+
+#textoSocio{
+    font-family: 'Inter SemiBold';
+    font-size: 32px;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.membresias{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 100px;
+}
+
+.cardMembre {
+    width: 300px;
+    height: auto;
+}
+
+.cardMembre:last-child {
+    width: 300px;
+    height: auto;
+}
+
+.encabezadoSocio{
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.imagenEncabezado{
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    border: 22px solid #384001;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+#tituloMembresia{
+    font-family: 'Inter SemiBold';
+    font-size: 32px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.conditionButton{
+    background: #A3A656;
+    margin: 0px;
+    border-radius: 35px;
+    width: auto;
+    padding: 20px 0px;
+    font-family: 'Inter SemiBold';
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.conditionButton:hover{
+    background: #384001;
+}
+.beneficio{
+    font-family: 'Inter Regular';
+    font-size: 14px;
+    width: auto;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.beneficio ul li{
+    padding-bottom: 7px;
+}
+
+.footer{
+    display: flex;
+    height: 97px;
+    align-items: center;
+    flex-grow: 1;
+    background: #384001;
+    align-items: center;
+}
+
+.footer .terminos{
+    padding-left: 70px;
+}
+.footer .terminos ul {
+    list-style-type: none;
+    text-align: center;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.terminos ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin-right: 20px;
+}
+
+.terminos ul li a {
+    color: #A3A656;
+    text-decoration: none;
+    font-family: 'Inter Regular';
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+
+.terminos ul li a:hover {
+    color: #FFFF00;
+    
+}
+
+.redes {
+    margin-left: auto; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.redes ul li img {
+    vertical-align: middle;
+}
+
+.redes ul li{
+    padding-right: 20px;
+}
+.redes ul{
+    display: flex;
+    align-items: center;
+}
+
+.redes ul p{
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    color: #A3A656;
+    font-family: 'Inter Regular';
+    font-size: 16px;
+    text-transform: uppercase;
+}
