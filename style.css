@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Romanesco&display=swap');
+
 .menu-content {
     display: flex;
     background-color: #A3A656;
@@ -42,8 +45,9 @@ nav ul li {
 nav ul li a {
     color: #000;
     text-decoration: none;
-    font-family: 'Inter Regular';
+    font-family: 'Inter';
     font-size: 16px;
+    font-weight: normal;
     text-transform: uppercase;
 }
 
@@ -67,7 +71,8 @@ nav ul li a:hover {
 }
 
 .account label {
-    font-family: 'Inter Regular';
+    font-family: 'Inter';
+    font-weight: normal;
     padding-right: 10px;
     font-size: 14px;
 }
@@ -81,7 +86,8 @@ nav ul li a:hover {
 }
 
 .title {
-    font-family: 'Romanesco Regular';
+    font-family: 'Romanesco';
+    font-weight: normal;
     font-size: 96px;
     padding-left: 200px;
     padding-top: 150px;
@@ -92,7 +98,8 @@ nav ul li a:hover {
 
     padding-left: 180px;
     padding-top: 25px;
-    font-family: 'Inter SemiBold';
+    font-family: 'Inter';
+    font-weight: 600;
     font-size: 32px;
 }
 
@@ -104,6 +111,7 @@ nav ul li a:hover {
     align-items: center;
     text-transform: uppercase;
     font-family: 'Inter';
+    font-weight: normal;
     font-size: 16px;
 }
 
@@ -115,6 +123,7 @@ nav ul li a:hover {
     margin-left: 15px;
     text-transform: uppercase;
     font-family: 'Inter';
+    font-weight: normal;
     font-size: 12px;
 }
 
@@ -124,7 +133,8 @@ nav ul li a:hover {
 
 .cita input::placeholder{
     color: #9E9A9A;
-    font-family: 'Inter Regular';
+    font-family: 'Inter';
+    font-weight: normal;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -136,6 +146,7 @@ nav ul li a:hover {
     margin-left: 15px;
     text-transform: uppercase;
     font-family: 'Inter';
+    font-weight: normal;
     font-size: 12px;
 }
 
@@ -166,7 +177,8 @@ nav ul li a:hover {
 }
 
 .encabezadoMasaje label {
-    font-family: 'Inter SemiBold';
+    font-family: 'Inter';
+    font-weight: 600;
     font-size: 32px;
     color: #fff;
 }
@@ -179,7 +191,8 @@ nav ul li a:hover {
 }
 
 .descripcion {
-    font-family: 'Inter Regular';
+    font-family: 'Inter';
+    font-weight: normal;
     font-size: 16px;
     width: auto;
     margin-bottom: 15px;
@@ -187,7 +200,8 @@ nav ul li a:hover {
 }
 
 .precio{
-    font-family: 'Inter SemiBold';
+    font-family: 'Inter';
+    font-weight: 600;
     font-size: 16px;
     display:flex;
     margin-left: 10px;
@@ -205,7 +219,8 @@ nav ul li a:hover {
     width: 150px;
     padding: 15px 0px;
     text-align: center;
-    font-family: 'Inter SemiBold';
+    font-family: 'Inter';
+    font-weight: 600;
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
@@ -221,7 +236,8 @@ nav ul li a:hover {
 }
 
 #textoSocio{
-    font-family: 'Inter SemiBold';
+    font-family: 'Inter';
+    font-weight: 600;
     font-size: 32px;
     margin: 0px;
     padding-top: 30px;
@@ -264,7 +280,8 @@ nav ul li a:hover {
 
 
 #tituloMembresia{
-    font-family: 'Inter SemiBold';
+    font-family: 'Inter';
+    font-weight: 600;
     font-size: 32px;
     margin: 0px;
     padding-top: 10px;
@@ -277,7 +294,8 @@ nav ul li a:hover {
     border-radius: 35px;
     width: auto;
     padding: 20px 0px;
-    font-family: 'Inter SemiBold';
+    font-family: 'Inter';
+    font-weight: 600;
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
@@ -286,7 +304,8 @@ nav ul li a:hover {
     background: #384001;
 }
 .beneficio{
-    font-family: 'Inter Regular';
+    font-family: 'Inter';
+    font-weight: normal;
     font-size: 14px;
     width: auto;
     padding-top: 20px;
@@ -327,7 +346,8 @@ nav ul li a:hover {
 .terminos ul li a {
     color: #A3A656;
     text-decoration: none;
-    font-family: 'Inter Regular';
+    font-family: 'Inter';
+    font-weight: normal;
     font-size: 16px;
     text-transform: uppercase;
     padding-right: 50px;
@@ -363,7 +383,8 @@ nav ul li a:hover {
     align-items: center;
     padding-right: 40px;
     color: #A3A656;
-    font-family: 'Inter Regular';
+    font-family: 'Inter';
+    font-weight: normal;
     font-size: 16px;
     text-transform: uppercase;
 }
